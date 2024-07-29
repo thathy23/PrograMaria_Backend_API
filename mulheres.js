@@ -29,8 +29,8 @@ async function criaMulher(request, response) {
     const novaMulher = new Mulher({        
         nome: request.body.nome,
         imagem: request.body.imagem,
-        minibio: request.body.minibio,
         citacao: request.body.citacao,
+        minibio: request.body.minibio
     })
 
     try {
